@@ -1,0 +1,14 @@
+Este directorio contiene los siguientes ficheros:
+
+4 diagramas:
+
+   1) Presentacion (Contiene el diagrama de vistas y controladora de presentacion).
+   2) Dominio (Contiene el diagrama del dominio y controladoras del dominio).
+   3) Persistencia (Contiene el diagrama de gestores de disco).
+   4) 3CapasProyecto (Contiene la union de los diagramas anteriores).
+
+Documento de la entrega:
+
+    Contiene una explicacion de los cambios hechos respecto la primera entrega y, a continuacion,
+    el mismo documento modificado los cambios mencionados.
+

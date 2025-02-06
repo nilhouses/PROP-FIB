@@ -1,0 +1,6 @@
+Este directorio contiene:
+
+    - Subdirectorio dominio: Clases de la capa del dominio del proyecto
+    - Subdirectorio presentacion: Clases de la capa de presentacion del proyecto
+    - Subdirectorio persistencia: Clases de la capa de persistendcia del proyecto
+

@@ -1,0 +1,1 @@
+El directorio contiene iconos usados en la capa de presentacion

@@ -1,0 +1,5 @@
+Este directorio que contiene  2 subdirectorios:
+
+    - main/java/*: Codigos fuente del proyecto
+    - test/*.java: Tests unitarios de las clases del proyecto
+

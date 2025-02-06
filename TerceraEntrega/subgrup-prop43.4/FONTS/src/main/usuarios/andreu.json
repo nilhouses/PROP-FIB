@@ -1,0 +1,26 @@
+{
+  "username" : "andreu",
+  "password" : "corden",
+  "estanteria" : {
+    "productos" : {
+      "1" : {
+        "id" : 1,
+        "nom" : "refresco",
+        "marca" : "coca-cola"
+      },
+      "2" : {
+        "id" : 2,
+        "nom" : "refresco",
+        "marca" : "fanta"
+      }
+    },
+    "ordenProductos" : [ 1, 2 ],
+    "contadorId" : 3
+  },
+  "similitudes" : {
+    "jsonHmap" : {
+      "2,1" : 0.8,
+      "1,2" : 0.8
+    }
+  }
+}

@@ -1,0 +1,1 @@
+Este directorio contiene los ficheros que representan la informacion relativa a cada usuario.

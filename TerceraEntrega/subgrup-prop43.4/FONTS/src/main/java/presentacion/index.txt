@@ -1,0 +1,5 @@
+Este directorio contiene:
+
+    - subdirectorio ./iconos/* (iconos usados en nuestro proyecto)
+    - subdirectorio ./vistas/* (vistas usadas en nuestro proyecto)
+    - "ControladoraPresentacion.java" Controladora de presentacion de nuestro proyecto

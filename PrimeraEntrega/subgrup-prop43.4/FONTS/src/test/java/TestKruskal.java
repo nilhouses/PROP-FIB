@@ -1,0 +1,419 @@
+import dominio.EjecutarAlgoritmo.Kruskal;
+import dominio.Pair;
+import org.junit.Test;
+
+import java.util.*;
+
+import static org.junit.Assert.*;
+
+public class TestKruskal {
+
+    @Test
+    public void TestKruskalGen()
+    {
+        HashMap<Pair<Integer,Integer>,Float> hm = new HashMap<Pair<Integer,Integer>,Float>();
+        hm.put(new Pair<>(0,1),0.9F);
+        hm.put(new Pair<>(1,0),0.9F);
+        hm.put(new Pair<>(0,2),0.8F);
+        hm.put(new Pair<>(2,0),0.8F);
+        hm.put(new Pair<>(0,3),0.7F);
+        hm.put(new Pair<>(3,0),0.7F);
+        hm.put(new Pair<>(1,2),0.6F);
+        hm.put(new Pair<>(2,1),0.6F);
+        hm.put(new Pair<>(1,3),0.5F);
+        hm.put(new Pair<>(3,1),0.5F);
+        hm.put(new Pair<>(2,3),0.4F);
+        hm.put(new Pair<>(3,2),0.4F);
+        Kruskal k = new Kruskal(hm);
+
+        assertTrue(k.getRG().contains( new Pair<>(0.9F, new Pair<>(0,1))));
+        assertFalse(k.getRG().contains(new Pair<>(0.9F, new Pair<>(1,0))));
+        assertTrue(k.getRG().contains( new Pair<>(0.8F, new Pair<>(0,2))));
+        assertFalse(k.getRG().contains(new Pair<>(0.8F, new Pair<>(2,0))));
+        assertTrue(k.getRG().contains( new Pair<>(0.7F, new Pair<>(0,3))));
+        assertFalse(k.getRG().contains(new Pair<>(0.7F, new Pair<>(3,0))));
+        assertTrue(k.getRG().contains( new Pair<>(0.6F, new Pair<>(1,2))));
+        assertFalse(k.getRG().contains(new Pair<>(0.6F, new Pair<>(2,1))));
+        assertTrue(k.getRG().contains( new Pair<>(0.5F, new Pair<>(1,3))));
+        assertFalse(k.getRG().contains(new Pair<>(0.5F, new Pair<>(3,1))));
+        assertTrue(k.getRG().contains( new Pair<>(0.4F, new Pair<>(2,3))));
+        assertFalse(k.getRG().contains(new Pair<>(0.4F, new Pair<>(3,2))));
+    }
+
+
+    @Test
+    public void TestKruskalExe4_1()
+    {
+        HashMap<Pair<Integer,Integer>,Float> hm = new HashMap<Pair<Integer,Integer>,Float>();
+        hm.put(new Pair<>(0,1),0.9F);
+        hm.put(new Pair<>(1,0),0.9F);
+        hm.put(new Pair<>(0,2),0.8F);
+        hm.put(new Pair<>(2,0),0.8F);
+        hm.put(new Pair<>(0,3),0.7F);
+        hm.put(new Pair<>(3,0),0.7F);
+        hm.put(new Pair<>(1,2),0.6F);
+        hm.put(new Pair<>(2,1),0.6F);
+        hm.put(new Pair<>(1,3),0.5F);
+        hm.put(new Pair<>(3,1),0.5F);
+        hm.put(new Pair<>(2,3),0.4F);
+        hm.put(new Pair<>(3,2),0.4F);
+        Kruskal k = new Kruskal(hm);
+        ArrayList<Integer> res = k.MST(4);
+        Integer[] var = {2,0,1,3};
+        ArrayList<Integer> solesp = new ArrayList<Integer>(Arrays.asList(var));
+        assertEquals(solesp,res);
+    }
+
+    @Test
+    public void TestKruskalExe4_2()
+    {
+        HashMap<Pair<Integer,Integer>,Float> hm = new HashMap<Pair<Integer,Integer>,Float>();
+        hm.put(new Pair<>(0,1),0.1F);
+        hm.put(new Pair<>(1,0),0.1F);
+        hm.put(new Pair<>(0,2),0.1F);
+        hm.put(new Pair<>(2,0),0.1F);
+        hm.put(new Pair<>(0,3),0.1F);
+        hm.put(new Pair<>(3,0),0.1F);
+        hm.put(new Pair<>(1,2),0.1F);
+        hm.put(new Pair<>(2,1),0.1F);
+        hm.put(new Pair<>(1,3),0.1F);
+        hm.put(new Pair<>(3,1),0.1F);
+        hm.put(new Pair<>(2,3),0.1F);
+        hm.put(new Pair<>(3,2),0.1F);
+        Kruskal k = new Kruskal(hm);
+        ArrayList<Integer> res = k.MST(4);
+        Integer[] var = {0,1,2,3};
+        ArrayList<Integer> solesp = new ArrayList<Integer>(Arrays.asList(var));
+        assertEquals(solesp,res);
+    }
+
+    @Test
+    public void TestKruskalExe4_3()
+    {
+        HashMap<Pair<Integer,Integer>,Float> hm = new HashMap<Pair<Integer,Integer>,Float>();
+        hm.put(new Pair<>(0,1),0.1F);
+        hm.put(new Pair<>(1,0),0.1F);
+        hm.put(new Pair<>(0,2),0.1F);
+        hm.put(new Pair<>(2,0),0.1F);
+        hm.put(new Pair<>(0,3),0.1F);
+        hm.put(new Pair<>(3,0),0.1F);
+        hm.put(new Pair<>(1,2),0.1F);
+        hm.put(new Pair<>(2,1),0.1F);
+        hm.put(new Pair<>(1,3),0.1F);
+        hm.put(new Pair<>(3,1),0.1F);
+        hm.put(new Pair<>(2,3),0.2F);
+        hm.put(new Pair<>(3,2),0.2F);
+        Kruskal k = new Kruskal(hm);
+        ArrayList<Integer> res = k.MST(4);
+        Integer[] var = {0,1,2,3};
+        ArrayList<Integer> solesp = new ArrayList<Integer>(Arrays.asList(var));
+        assertEquals(solesp,res);
+    }
+
+    @Test
+    public void TestKruskalExe6_1()
+    {
+        HashMap<Pair<Integer,Integer>,Float> hm = new HashMap<Pair<Integer,Integer>,Float>();
+        hm.put(new Pair<>(0,1),1F);
+        hm.put(new Pair<>(0,2),0.0F);
+        hm.put(new Pair<>(0,3),0.0F);
+        hm.put(new Pair<>(0,4),0.0F);
+        hm.put(new Pair<>(0,5),0.0F);
+        hm.put(new Pair<>(1,0),1F);
+        hm.put(new Pair<>(1,2),1F);
+        hm.put(new Pair<>(1,3),0.0F);
+        hm.put(new Pair<>(1,4),0.0F);
+        hm.put(new Pair<>(1,5),0.0F);
+        hm.put(new Pair<>(2,0),0.0F);
+        hm.put(new Pair<>(2,1),1F);
+        hm.put(new Pair<>(2,3),1F);
+        hm.put(new Pair<>(2,4),0.0F);
+        hm.put(new Pair<>(2,5),0.0F);
+        hm.put(new Pair<>(3,0),0.0F);
+        hm.put(new Pair<>(3,1),0.0F);
+        hm.put(new Pair<>(3,2),1F);
+        hm.put(new Pair<>(3,4),1F);
+        hm.put(new Pair<>(3,5),0.0F);
+        hm.put(new Pair<>(4,0),0.0F);
+        hm.put(new Pair<>(4,1),0.0F);
+        hm.put(new Pair<>(4,2),0.0F);
+        hm.put(new Pair<>(4,3),1F);
+        hm.put(new Pair<>(4,5),1F);
+        hm.put(new Pair<>(5,0),0.0F);
+        hm.put(new Pair<>(5,1),0.0F);
+        hm.put(new Pair<>(5,2),0.0F);
+        hm.put(new Pair<>(5,3),0.0F);
+        hm.put(new Pair<>(5,4),1F);
+
+        Kruskal k = new Kruskal(hm);
+        ArrayList<Integer> res = k.MST(6);
+        Integer[] var = {0,1,2,3,4,5};
+        ArrayList<Integer> solesp = new ArrayList<Integer>(Arrays.asList(var));
+        assertEquals(solesp,res);
+    }
+
+    @Test
+    public void TestKruskalExe6_2()
+    {
+        HashMap<Pair<Integer,Integer>,Float> hm = new HashMap<Pair<Integer,Integer>,Float>();
+        hm.put(new Pair<>(0,5),1F);
+        hm.put(new Pair<>(0,2),0.0F);
+        hm.put(new Pair<>(0,3),0.0F);
+        hm.put(new Pair<>(0,4),0.0F);
+        hm.put(new Pair<>(0,1),0.0F);
+        hm.put(new Pair<>(5,0),1F);
+        hm.put(new Pair<>(5,2),1F);
+        hm.put(new Pair<>(5,3),0.0F);
+        hm.put(new Pair<>(5,4),0.0F);
+        hm.put(new Pair<>(5,1),0.0F);
+        hm.put(new Pair<>(2,0),0.0F);
+        hm.put(new Pair<>(2,1),1F);
+        hm.put(new Pair<>(2,5),1F);
+        hm.put(new Pair<>(2,4),0.0F);
+        hm.put(new Pair<>(2,3),0.0F);
+        hm.put(new Pair<>(1,0),0.0F);
+        hm.put(new Pair<>(1,3),0.0F);
+        hm.put(new Pair<>(1,2),1F);
+        hm.put(new Pair<>(1,4),1F);
+        hm.put(new Pair<>(1,5),0.0F);
+        hm.put(new Pair<>(4,0),0.0F);
+        hm.put(new Pair<>(4,5),0.0F);
+        hm.put(new Pair<>(4,2),0.0F);
+        hm.put(new Pair<>(4,3),1F);
+        hm.put(new Pair<>(4,1),1F);
+        hm.put(new Pair<>(3,0),0.0F);
+        hm.put(new Pair<>(3,1),0.0F);
+        hm.put(new Pair<>(3,2),0.0F);
+        hm.put(new Pair<>(3,5),0.0F);
+        hm.put(new Pair<>(3,4),1F);
+
+        Kruskal k = new Kruskal(hm);
+        ArrayList<Integer> res = k.MST(6);
+        Integer[] var = {0,5,2,1,4,3};
+        ArrayList<Integer> solesp = new ArrayList<Integer>(Arrays.asList(var));
+        assertEquals(solesp,res);
+    }
+
+    @Test
+    public void TestKruskal15x15()
+    {
+        HashMap<Pair<Integer,Integer>,Float> hm = new HashMap<Pair<Integer,Integer>,Float>();
+
+        hm.put(new Pair<>(0,1),0.29F);
+        hm.put(new Pair<>(0,2),0.82F);
+        hm.put(new Pair<>(0,3),0.46F);
+        hm.put(new Pair<>(0,4),0.68F);
+        hm.put(new Pair<>(0,5),0.52F);
+        hm.put(new Pair<>(0,6),0.72F);
+        hm.put(new Pair<>(0,7),0.42F);
+        hm.put(new Pair<>(0,8),0.51F);
+        hm.put(new Pair<>(0,9),0.55F);
+        hm.put(new Pair<>(0,10),0.29F);
+        hm.put(new Pair<>(0,11),0.74F);
+        hm.put(new Pair<>(0,12),0.23F);
+        hm.put(new Pair<>(0,13),0.72F);
+        hm.put(new Pair<>(0,14),0.46F);
+        hm.put(new Pair<>(1,0),0.29F);
+        hm.put(new Pair<>(1,2),0.55F);
+        hm.put(new Pair<>(1,3),0.46F);
+        hm.put(new Pair<>(1,4),0.42F);
+        hm.put(new Pair<>(1,5),0.43F);
+        hm.put(new Pair<>(1,6),0.43F);
+        hm.put(new Pair<>(1,7),0.23F);
+        hm.put(new Pair<>(1,8),0.23F);
+        hm.put(new Pair<>(1,9),0.31F);
+        hm.put(new Pair<>(1,10),0.41F);
+        hm.put(new Pair<>(1,11),0.51F);
+        hm.put(new Pair<>(1,12),0.11F);
+        hm.put(new Pair<>(1,13),0.52F);
+        hm.put(new Pair<>(1,14),0.21F);
+        hm.put(new Pair<>(2,0),0.82F);
+        hm.put(new Pair<>(2,1),0.55F);
+        hm.put(new Pair<>(2,3),0.68F);
+        hm.put(new Pair<>(2,4),0.46F);
+        hm.put(new Pair<>(2,5),0.55F);
+        hm.put(new Pair<>(2,6),0.23F);
+        hm.put(new Pair<>(2,7),0.43F);
+        hm.put(new Pair<>(2,8),0.41F);
+        hm.put(new Pair<>(2,9),0.29F);
+        hm.put(new Pair<>(2,10),0.79F);
+        hm.put(new Pair<>(2,11),0.21F);
+        hm.put(new Pair<>(2,12),0.64F);
+        hm.put(new Pair<>(2,13),0.31F);
+        hm.put(new Pair<>(2,14),0.51F);
+        hm.put(new Pair<>(3,0),0.46F);
+        hm.put(new Pair<>(3,1),0.46F);
+        hm.put(new Pair<>(3,2),0.68F);
+        hm.put(new Pair<>(3,4),0.82F);
+        hm.put(new Pair<>(3,5),0.15F);
+        hm.put(new Pair<>(3,6),0.72F);
+        hm.put(new Pair<>(3,7),0.31F);
+        hm.put(new Pair<>(3,8),0.62F);
+        hm.put(new Pair<>(3,9),0.42F);
+        hm.put(new Pair<>(3,10),0.21F);
+        hm.put(new Pair<>(3,11),0.51F);
+        hm.put(new Pair<>(3,12),0.51F);
+        hm.put(new Pair<>(3,13),0.43F);
+        hm.put(new Pair<>(3,14),0.64F);
+        hm.put(new Pair<>(4,0),0.68F);
+        hm.put(new Pair<>(4,1),0.42F);
+        hm.put(new Pair<>(4,2),0.46F);
+        hm.put(new Pair<>(4,3),0.82F);
+        hm.put(new Pair<>(4,5),0.74F);
+        hm.put(new Pair<>(4,6),0.23F);
+        hm.put(new Pair<>(4,7),0.52F);
+        hm.put(new Pair<>(4,8),0.21F);
+        hm.put(new Pair<>(4,9),0.46F);
+        hm.put(new Pair<>(4,10),0.82F);
+        hm.put(new Pair<>(4,11),0.58F);
+        hm.put(new Pair<>(4,12),0.46F);
+        hm.put(new Pair<>(4,13),0.65F);
+        hm.put(new Pair<>(4,14),0.23F);
+        hm.put(new Pair<>(5,0),0.52F);
+        hm.put(new Pair<>(5,1),0.43F);
+        hm.put(new Pair<>(5,2),0.55F);
+        hm.put(new Pair<>(5,3),0.15F);
+        hm.put(new Pair<>(5,4),0.74F);
+        hm.put(new Pair<>(5,6),0.61F);
+        hm.put(new Pair<>(5,7),0.23F);
+        hm.put(new Pair<>(5,8),0.55F);
+        hm.put(new Pair<>(5,9),0.31F);
+        hm.put(new Pair<>(5,10),0.33F);
+        hm.put(new Pair<>(5,11),0.37F);
+        hm.put(new Pair<>(5,12),0.51F);
+        hm.put(new Pair<>(5,13),0.29F);
+        hm.put(new Pair<>(5,14),0.59F);
+        hm.put(new Pair<>(6,0),0.72F);
+        hm.put(new Pair<>(6,1),0.43F);
+        hm.put(new Pair<>(6,2),0.23F);
+        hm.put(new Pair<>(6,3),0.72F);
+        hm.put(new Pair<>(6,4),0.23F);
+        hm.put(new Pair<>(6,5),0.61F);
+        hm.put(new Pair<>(6,7),0.42F);
+        hm.put(new Pair<>(6,8),0.23F);
+        hm.put(new Pair<>(6,9),0.31F);
+        hm.put(new Pair<>(6,10),0.77F);
+        hm.put(new Pair<>(6,11),0.37F);
+        hm.put(new Pair<>(6,12),0.51F);
+        hm.put(new Pair<>(6,13),0.46F);
+        hm.put(new Pair<>(6,14),0.33F);
+        hm.put(new Pair<>(7,0),0.42F);
+        hm.put(new Pair<>(7,1),0.23F);
+        hm.put(new Pair<>(7,2),0.43F);
+        hm.put(new Pair<>(7,3),0.31F);
+        hm.put(new Pair<>(7,4),0.52F);
+        hm.put(new Pair<>(7,5),0.23F);
+        hm.put(new Pair<>(7,6),0.42F);
+        hm.put(new Pair<>(7,8),0.33F);
+        hm.put(new Pair<>(7,9),0.15F);
+        hm.put(new Pair<>(7,10),0.37F);
+        hm.put(new Pair<>(7,11),0.33F);
+        hm.put(new Pair<>(7,12),0.33F);
+        hm.put(new Pair<>(7,13),0.31F);
+        hm.put(new Pair<>(7,14),0.37F);
+        hm.put(new Pair<>(8,0),0.51F);
+        hm.put(new Pair<>(8,1),0.23F);
+        hm.put(new Pair<>(8,2),0.41F);
+        hm.put(new Pair<>(8,3),0.62F);
+        hm.put(new Pair<>(8,4),0.21F);
+        hm.put(new Pair<>(8,5),0.55F);
+        hm.put(new Pair<>(8,6),0.23F);
+        hm.put(new Pair<>(8,7),0.33F);
+        hm.put(new Pair<>(8,9),0.29F);
+        hm.put(new Pair<>(8,10),0.62F);
+        hm.put(new Pair<>(8,11),0.46F);
+        hm.put(new Pair<>(8,12),0.29F);
+        hm.put(new Pair<>(8,13),0.51F);
+        hm.put(new Pair<>(8,14),0.11F);
+        hm.put(new Pair<>(9,0),0.55F);
+        hm.put(new Pair<>(9,1),0.31F);
+        hm.put(new Pair<>(9,2),0.29F);
+        hm.put(new Pair<>(9,3),0.42F);
+        hm.put(new Pair<>(9,4),0.46F);
+        hm.put(new Pair<>(9,5),0.31F);
+        hm.put(new Pair<>(9,6),0.31F);
+        hm.put(new Pair<>(9,7),0.15F);
+        hm.put(new Pair<>(9,8),0.29F);
+        hm.put(new Pair<>(9,10),0.51F);
+        hm.put(new Pair<>(9,11),0.21F);
+        hm.put(new Pair<>(9,12),0.41F);
+        hm.put(new Pair<>(9,13),0.23F);
+        hm.put(new Pair<>(9,14),0.37F);
+        hm.put(new Pair<>(10,0),0.29F);
+        hm.put(new Pair<>(10,1),0.41F);
+        hm.put(new Pair<>(10,2),0.79F);
+        hm.put(new Pair<>(10,3),0.21F);
+        hm.put(new Pair<>(10,4),0.82F);
+        hm.put(new Pair<>(10,5),0.33F);
+        hm.put(new Pair<>(10,6),0.77F);
+        hm.put(new Pair<>(10,7),0.37F);
+        hm.put(new Pair<>(10,8),0.62F);
+        hm.put(new Pair<>(10,9),0.51F);
+        hm.put(new Pair<>(10,11),0.65F);
+        hm.put(new Pair<>(10,12),0.42F);
+        hm.put(new Pair<>(10,13),0.59F);
+        hm.put(new Pair<>(10,14),0.61F);
+        hm.put(new Pair<>(11,0),0.74F);
+        hm.put(new Pair<>(11,1),0.51F);
+        hm.put(new Pair<>(11,2),0.21F);
+        hm.put(new Pair<>(11,3),0.51F);
+        hm.put(new Pair<>(11,4),0.58F);
+        hm.put(new Pair<>(11,5),0.37F);
+        hm.put(new Pair<>(11,6),0.37F);
+        hm.put(new Pair<>(11,7),0.33F);
+        hm.put(new Pair<>(11,8),0.46F);
+        hm.put(new Pair<>(11,9),0.21F);
+        hm.put(new Pair<>(11,10),0.65F);
+        hm.put(new Pair<>(11,12),0.61F);
+        hm.put(new Pair<>(11,13),0.11F);
+        hm.put(new Pair<>(11,14),0.55F);
+        hm.put(new Pair<>(12,0),0.23F);
+        hm.put(new Pair<>(12,1),0.11F);
+        hm.put(new Pair<>(12,2),0.64F);
+        hm.put(new Pair<>(12,3),0.51F);
+        hm.put(new Pair<>(12,4),0.46F);
+        hm.put(new Pair<>(12,5),0.51F);
+        hm.put(new Pair<>(12,6),0.51F);
+        hm.put(new Pair<>(12,7),0.33F);
+        hm.put(new Pair<>(12,8),0.29F);
+        hm.put(new Pair<>(12,9),0.41F);
+        hm.put(new Pair<>(12,10),0.42F);
+        hm.put(new Pair<>(12,11),0.61F);
+        hm.put(new Pair<>(12,13),0.62F);
+        hm.put(new Pair<>(12,14),0.23F);
+        hm.put(new Pair<>(13,0),0.72F);
+        hm.put(new Pair<>(13,1),0.52F);
+        hm.put(new Pair<>(13,2),0.31F);
+        hm.put(new Pair<>(13,3),0.43F);
+        hm.put(new Pair<>(13,4),0.65F);
+        hm.put(new Pair<>(13,5),0.29F);
+        hm.put(new Pair<>(13,6),0.46F);
+        hm.put(new Pair<>(13,7),0.31F);
+        hm.put(new Pair<>(13,8),0.51F);
+        hm.put(new Pair<>(13,9),0.23F);
+        hm.put(new Pair<>(13,10),0.59F);
+        hm.put(new Pair<>(13,11),0.11F);
+        hm.put(new Pair<>(13,12),0.62F);
+        hm.put(new Pair<>(13,14),0.59F);
+        hm.put(new Pair<>(14,0),0.46F);
+        hm.put(new Pair<>(14,1),0.21F);
+        hm.put(new Pair<>(14,2),0.51F);
+        hm.put(new Pair<>(14,3),0.64F);
+        hm.put(new Pair<>(14,4),0.23F);
+        hm.put(new Pair<>(14,5),0.59F);
+        hm.put(new Pair<>(14,6),0.33F);
+        hm.put(new Pair<>(14,7),0.37F);
+        hm.put(new Pair<>(14,8),0.11F);
+        hm.put(new Pair<>(14,9),0.37F);
+        hm.put(new Pair<>(14,10),0.61F);
+        hm.put(new Pair<>(14,11),0.55F);
+        hm.put(new Pair<>(14,12),0.23F);
+        hm.put(new Pair<>(14,13),0.59F);
+
+        Kruskal k = new Kruskal(hm);
+        ArrayList<Integer> res = k.MST(15);
+        Integer[] var = {8,7,14,5,6,3,4,10,2,0,11,12,13,1,9};
+        ArrayList<Integer> solesp = new ArrayList<Integer>(Arrays.asList(var));
+        assertEquals(solesp,res);
+    }
+}

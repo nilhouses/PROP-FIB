@@ -1,0 +1,263 @@
+> Task :compileJava UP-TO-DATE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+
+> Task :run
+
+CASOS DE USO A EJECUTAR
+
+ _____________________________________________________
+|                                                     |Logged out
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+usuario: 
+password: 
+Se ha creado una cuenta para el usuario nil y se ha iniciado sesion
+ _____________________________________________________
+|                                                     |Usuario: nil
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+Primero inserte el nombre del producto: 
+Ahora inserte la marca del producto: 
+El producto se ha insertado correctamente
+ _____________________________________________________
+|                                                     |Usuario: nil
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+Primero inserte el nombre del producto: 
+Ahora inserte la marca del producto: 
+El producto se ha insertado correctamente
+Proporcione un grado de similitud entre 0.0 y 1.0 para cerveza Moritz y patatas Lays
+El nuevo grado de similitud entre cerveza Moritz y patatas Lays es 0.7
+ _____________________________________________________
+|                                                     |Usuario: nil
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+Primero inserte el nombre del producto: 
+Ahora inserte la marca del producto: 
+El producto se ha insertado correctamente
+Proporcione un grado de similitud entre 0.0 y 1.0 para pa?ales Dodot y patatas Lays
+El nuevo grado de similitud entre pa?ales Dodot y patatas Lays es 0.7
+Proporcione un grado de similitud entre 0.0 y 1.0 para pa?ales Dodot y cerveza Moritz
+El nuevo grado de similitud entre pa?ales Dodot y cerveza Moritz es 0.5
+ _____________________________________________________
+|                                                     |Usuario: nil
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+Primero inserte el nombre del primer producto:
+Ahora inserte su marca:
+Ahora inserte el nombre  del segundo producto:
+Ahora inserte su marca:
+Proporcione un grado de similitud entre 0.0 y 1.0 para patatas Lays y cerveza Moritz
+La similitud entre patatas Lays y cerveza Moritz se ha modificado correctamente a 0.8.
+ _____________________________________________________
+|                                                     |Usuario: nil
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+Inserte el nombre del producto:
+Ahora inserte su marca:
+La similitud entre patatas Lays y cerveza Moritz es: 0.8
+La similitud entre patatas Lays y pa?ales Dodot es: 0.7
+ _____________________________________________________
+|                                                     |Usuario: nil
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+[ patatas Lays | cerveza Moritz | pa?ales Dodot ]
+ _____________________________________________________
+|                                                     |Usuario: nil
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+La estanteria se ha vaciado exitosamente
+ _____________________________________________________
+|                                                     |Usuario: nil
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+Primero inserte el nombre del primer producto:
+Ahora inserte su marca:
+Ahora inserte el nombre  del segundo producto:
+Ahora inserte su marca:
+Ninguno de los dos productos existe en la estanteria
+ _____________________________________________________
+|                                                     |Usuario: nil
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+[  ]
+ _____________________________________________________
+|                                                     |Usuario: nil
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+Saliendo del sistema
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.8/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 685ms
+2 actionable tasks: 1 executed, 1 up-to-date

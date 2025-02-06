@@ -1,0 +1,41 @@
+Objeto de la prueba:
+
+    El driver es el objeto principal de esta prueba. En esta prueba queremos verificar que
+    el sistema permita ejecutar los casos de uso relacionados con la gestion de usuarios. 
+    Los casos de uso especificos probados incluyen:
+
+        
+        - comprobacion de que no se puede ejecutar ningun caso de uso excepto salir hasta tener una sesion iniciada. 
+        - creacion de un usuario
+        - logout y ejecutar una funcionalidad sin tener sesion iniciada
+        - creacion y logout de dos usuarios mas
+        - login del primer usuario con varios usuarios registrados en el sistema
+        - logout 
+        - salir
+
+Archivos de datos necesarios:
+
+    Los archivos de datos, en este caso, son los siguientes:
+
+    test1.in (entrada)
+    test1.out (salida)
+
+Valores estudiados:
+
+    Hemos comprobado la creacion, login y logout con usuarios validos e invalidos. 
+    
+    Se puede decir que hemos aplicado tecnicas de caja negra, ya que para este test
+    no se tienen porque conocen los detalles internos del sistema (como se realiza 
+    el login o la gestion de la base de datos), y la prueba se basa en observar 
+    la salida esperada en funcion de las acciones del usuario.
+
+Efectos estudiados:
+
+    - Comprobacion de que el sistema no permita realizar acciones hasta tener una sesion iniciada. 
+    - Validacion de la correcta salida de datos (por ejemplo, mensajes de error cuando el usuario no esta logueado).
+
+Operativa:
+
+    Para ejecutar el sistema, solo es necesario ejecutar el archivo Main con el siguiente comando:
+
+        $ ./gradlew run < ../EXE/JuegosDePruebas/test1.in > ../EXE/JuegosDePruebas/test1.out

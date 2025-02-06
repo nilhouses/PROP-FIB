@@ -1,0 +1,5 @@
+Este que contiene:
+
+    - Subdirectorio dominio: Clases del dominio del proyecto
+    - Main.java: Driver de la Controladora del Domino
+

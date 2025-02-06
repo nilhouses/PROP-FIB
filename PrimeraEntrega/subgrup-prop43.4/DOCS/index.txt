@@ -1,0 +1,6 @@
+Este directorio contiene la documentacion de nuestro proyecto, compuesta por:
+
+    -  Diagrama de casos de uso "DiagramaDeCasosDeUso.png"
+    -  Diagrama de clases de diseno "DiagramaDeClasesDeDiseno.png"
+    -  Documentacion necesaria para esta entrega "Documentacion.pdf"
+

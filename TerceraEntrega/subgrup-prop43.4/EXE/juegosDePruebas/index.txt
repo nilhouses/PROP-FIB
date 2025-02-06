@@ -1,0 +1,2 @@
+En cada subdirectorio de este directorio tenemos juegos de pruebas 
+para cada funcionalidad o clase del proyecto que los requiere

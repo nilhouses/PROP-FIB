@@ -1,0 +1,1 @@
+El directorio contiene vistas usadas en la capa de presentacion

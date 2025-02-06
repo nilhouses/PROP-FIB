@@ -1,0 +1,8 @@
+Este directorio contiene las clases:
+
+    Backtracking.java
+    Kruskal.java
+    WQuickUnion.java
+    HillClimbing.java
+    
+usadas para gestionar los algoritmos

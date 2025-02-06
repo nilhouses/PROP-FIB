@@ -1,0 +1,66 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+
+version = '1.0-SNAPSHOT'
+
+ext {
+    javaMainClass = 'Main'
+}
+
+application {
+    mainClass = javaMainClass
+    //los ejecutables se moveran al directorio EXE
+    applicationDefaultJvmArgs = ["-Dexec.outputFile=EXE/output.log"]
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': javaMainClass
+    }
+    //Carpeta EXE guardara el JAR
+    destinationDirectory = file('../EXE')
+    archiveBaseName.set('Driver')
+    archiveVersion.set('')  
+}
+
+task copyResources(type: Copy) {
+    from 'src/resources' 
+    into '../EXE/resources'  // Copy resources to EXE/resources
+}
+
+build.dependsOn copyResources
+
+task moveExecutables(type: Copy) {
+    from jar.archivePath
+    into '../EXE'  // Ensure the JAR is moved to EXE
+}
+
+build.finalizedBy moveExecutables
+
+
+// Apply a specific Java toolchain to ease working on different environments.
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(22)
+    }
+}
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // this is just an example of importing an external library, you do not need to use it in your project
+    implementation 'com.google.code.gson:gson:2.8.9'
+    testImplementation('junit:junit:4.13.1')
+    //cambios mockito
+    testImplementation 'org.mockito:mockito-core:4.9.0'
+}
+
+run {
+    standardInput = System.in
+}

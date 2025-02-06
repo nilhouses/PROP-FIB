@@ -1,0 +1,26 @@
+Salida esperada ejecutar el Backtracking:
+
+    [ P 1 | P 3 | P 5 | P 2 | P 10 | P 8 | P 4 | P 9 | P 7 | P 6 ]
+
+Objeto de la prueba: 
+    
+    Testear el correcto funcionamiento de la ordenacion por backtracking en un caso complejo.
+
+Ficheros de datos necesarios: 
+        
+    Fichero BacktrackingComplejo.json, que almacena usuarios con su estanteria y similitudes.
+
+Valores estudiados: 
+    
+    10 Productos en la estanteria con sus similitudes.
+
+    Se puede decir que hemos aplicado tecnicas de caja negra, ya que para este test
+    no se tienen porque conocer los detalles internos del sistema, la prueba se basa 
+    en observar la salida esperada en funcion de los productos y similitudes que 
+    recibe el algoritmo.
+  
+
+Efectos estudiados: 
+
+    - Funcionamiento correcto del algoritmo de backtracking en un caso con 10 productos.
+

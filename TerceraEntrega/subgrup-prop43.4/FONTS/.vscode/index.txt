@@ -1,0 +1,2 @@
+Este directorio lo ha generado nuestro editor de codigo 
+automaticamente, se puede ignorar

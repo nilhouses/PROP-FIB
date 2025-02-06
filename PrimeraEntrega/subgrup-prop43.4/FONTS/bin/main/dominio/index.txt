@@ -1,0 +1,16 @@
+Contenido:
+
+Subirectorios
+
+    "EjecutarAlgoritmo", contiene las clases usadas para nuestros 3 algoritmos
+
+Clases
+
+    CjtUsuarios.java
+    ControladoraDominio.java
+    Estanteria.java
+    Pair.java
+    Producto.java
+    Similitudes.java
+    Usuario.java
+    

@@ -1,0 +1,447 @@
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :run
+
+CASOS DE USO A EJECUTAR
+
+ _____________________________________________________
+|                                                     |Logged out
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+Se debe iniciar sesion
+ _____________________________________________________
+|                                                     |Logged out
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+Se debe iniciar sesion
+ _____________________________________________________
+|                                                     |Logged out
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+Se debe iniciar sesion
+ _____________________________________________________
+|                                                     |Logged out
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+Se debe iniciar sesion
+ _____________________________________________________
+|                                                     |Logged out
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+Se debe iniciar sesion
+ _____________________________________________________
+|                                                     |Logged out
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+Se debe iniciar sesion
+ _____________________________________________________
+|                                                     |Logged out
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+Se debe iniciar sesion
+ _____________________________________________________
+|                                                     |Logged out
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+Se debe iniciar sesion
+ _____________________________________________________
+|                                                     |Logged out
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+Se debe iniciar sesion
+ _____________________________________________________
+|                                                     |Logged out
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+Se debe iniciar sesion
+ _____________________________________________________
+|                                                     |Logged out
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+usuario: 
+password: 
+El usuario nil contrasenya no existe
+ _____________________________________________________
+|                                                     |Logged out
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+Se debe iniciar sesion
+ _____________________________________________________
+|                                                     |Logged out
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+usuario: 
+password: 
+Se ha creado una cuenta para el usuario nil y se ha iniciado sesion
+ _____________________________________________________
+|                                                     |Usuario: nil
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+Cerrando sesion del usuario nil
+ _____________________________________________________
+|                                                     |Logged out
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+usuario: 
+password: 
+Se ha creado una cuenta para el usuario andreu y se ha iniciado sesion
+ _____________________________________________________
+|                                                     |Usuario: andreu
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+Cerrando sesion del usuario andreu
+ _____________________________________________________
+|                                                     |Logged out
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+usuario: 
+password: 
+Se ha creado una cuenta para el usuario david y se ha iniciado sesion
+ _____________________________________________________
+|                                                     |Usuario: david
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+Cerrando sesion del usuario david
+ _____________________________________________________
+|                                                     |Logged out
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+usuario: 
+password: 
+Sesion iniciada con usuario nil
+ _____________________________________________________
+|                                                     |Usuario: nil
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+Cerrando sesion del usuario nil
+ _____________________________________________________
+|                                                     |Logged out
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+Saliendo del sistema
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.8/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 747ms
+2 actionable tasks: 2 executed

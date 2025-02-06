@@ -1,0 +1,38 @@
+Objeto de la prueba:
+
+    El driver es el objeto principal de esta prueba. En esta prueba queremos verificar que
+    el sistema permita ejecutar los casos de uso relacionados con ejecutar el algoritmo 
+    Los casos de uso especificos probados incluyen:
+
+        - signup y login del usuario (obligatorio para usar las funcionalidades)
+        - preparacion de 4 productos en la estanteria con sus relaciones
+        - testeo de Backtracking
+        - testeo de Kruskal
+        - testeo de HillClimbing
+        - salir
+
+Archivos de datos necesarios:
+
+    Los archivos de datos, en este caso, son los siguientes:
+
+    test3.in (entrada)
+    test3.out (salida)
+
+Valores estudiados:
+
+    Hemos estudiado el comportamiento de los algoritmos de optimizacion sobre una estanteria inicial que contiene 4 productos.
+    En cada caso, los productos se agrupan de manera coherente con las similitudes esperadas, ya que hemos configurado las 
+    relaciones para que los productos tecnologicos tengan mayor relacion entre si que con los otros productos alimentarios 
+    y viceversa.
+
+Efectos estudiados:
+
+    - Comprobacion de que los algoritmos proporcionan soluciones distintas pero con el mismo peso de similitud
+    - Verificacion de que los productos se agrupan correctamente segun sus similitudes y que los algoritmos
+    Backtracking, Kruskal y HillClimbing devuelven configuraciones validas de la estanteria.
+
+Operativa:
+
+    Para ejecutar el sistema, solo es necesario ejecutar el archivo Main con el siguiente comando:
+
+        $ ./gradlew run < ../EXE/JuegosDePruebas/test3.in > ../EXE/JuegosDePruebas/test3.out

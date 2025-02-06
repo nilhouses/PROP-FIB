@@ -1,0 +1,24 @@
+Este directorio contiene el subdirectorio usado para los juegos de pruebas del DriverDominio 
+    
+    - juegosDePruebas/java/*
+
+Tambien contiene un ejecutable comprimido en  
+
+   - gradlepoc-1.0-SNAPSHOT.zip
+
+De todas formas, este ejecutable no funciona, ya que no dispone de los recursos de la capa de persistencia ni los iconos de la capa de presentacion. 
+
+Es por esta casuistica, que recomendamos ejecutar el comando:
+    
+    $ ./gradlew run 
+
+desde el directorio FONTS para ejecutar el proyecto.
+
+Si se desea recompilar el proyecto, también se puede ejecutar desde el directorio FONTS el comando:
+
+    $ ./gradlew clean build
+
+
+
+
+

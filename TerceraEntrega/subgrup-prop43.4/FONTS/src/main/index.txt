@@ -1,0 +1,4 @@
+Este directorio que contiene  2 subdirectorios:
+
+    - java/*: Codigos fuente del proyecto
+    - usuarios/*: Ficheros .json con los usuarios del sistema

@@ -1,0 +1,251 @@
+> Task :compileJava UP-TO-DATE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+
+> Task :run
+
+CASOS DE USO A EJECUTAR
+
+ _____________________________________________________
+|                                                     |Logged out
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+usuario: 
+password: 
+Se ha creado una cuenta para el usuario nil y se ha iniciado sesion
+ _____________________________________________________
+|                                                     |Usuario: nil
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+Primero inserte el nombre del producto: 
+Ahora inserte la marca del producto: 
+El producto se ha insertado correctamente
+ _____________________________________________________
+|                                                     |Usuario: nil
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+Primero inserte el nombre del producto: 
+Ahora inserte la marca del producto: 
+El producto se ha insertado correctamente
+Proporcione un grado de similitud entre 0.0 y 1.0 para arroz Norton y auriculares Senheiser
+El nuevo grado de similitud entre arroz Norton y auriculares Senheiser es 0.0
+ _____________________________________________________
+|                                                     |Usuario: nil
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+Primero inserte el nombre del producto: 
+Ahora inserte la marca del producto: 
+El producto se ha insertado correctamente
+Proporcione un grado de similitud entre 0.0 y 1.0 para altavoz Sony y auriculares Senheiser
+El nuevo grado de similitud entre altavoz Sony y auriculares Senheiser es 0.9
+Proporcione un grado de similitud entre 0.0 y 1.0 para altavoz Sony y arroz Norton
+El nuevo grado de similitud entre altavoz Sony y arroz Norton es 0.3
+ _____________________________________________________
+|                                                     |Usuario: nil
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+Primero inserte el nombre del producto: 
+Ahora inserte la marca del producto: 
+El producto se ha insertado correctamente
+Proporcione un grado de similitud entre 0.0 y 1.0 para patatas Lays y auriculares Senheiser
+El nuevo grado de similitud entre patatas Lays y auriculares Senheiser es 0.3
+Proporcione un grado de similitud entre 0.0 y 1.0 para patatas Lays y arroz Norton
+El nuevo grado de similitud entre patatas Lays y arroz Norton es 0.8
+Proporcione un grado de similitud entre 0.0 y 1.0 para patatas Lays y altavoz Sony
+El nuevo grado de similitud entre patatas Lays y altavoz Sony es 0.2
+ _____________________________________________________
+|                                                     |Usuario: nil
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+[ auriculares Senheiser | arroz Norton | altavoz Sony | patatas Lays ]
+ _____________________________________________________
+|                                                     |Usuario: nil
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+Inserte 1 para ordenarla mediante Backtracking
+Inserte 2 para ordenarla mediante Kruskal
+Inserte 3 para ordenarla mediante HillClimbing
+Estanteria ordenada, aqui tiene el nuevo orden:
+[ auriculares Senheiser | patatas Lays | arroz Norton | altavoz Sony ]
+ _____________________________________________________
+|                                                     |Usuario: nil
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+Inserte 1 para ordenarla mediante Backtracking
+Inserte 2 para ordenarla mediante Kruskal
+Inserte 3 para ordenarla mediante HillClimbing
+Estanteria ordenada, aqui tiene el nuevo orden:
+[ auriculares Senheiser | altavoz Sony | arroz Norton | patatas Lays ]
+ _____________________________________________________
+|                                                     |Usuario: nil
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+Inserte 1 para ordenarla mediante Backtracking
+Inserte 2 para ordenarla mediante Kruskal
+Inserte 3 para ordenarla mediante HillClimbing
+Estanteria ordenada, aqui tiene el nuevo orden:
+[ auriculares Senheiser | patatas Lays | arroz Norton | altavoz Sony ]
+ _____________________________________________________
+|                                                     |Usuario: nil
+|   1) Ordenar Estanteria                             |
+|   2) Alta Producto                                  |
+|   3) Eliminar Producto                              |
+|   4) Modificar un grado de similitud                |
+|   5) Modificar grados de similitud de un producto   |
+|   6) Intercambia posicion productos                 |
+|   7) Consulta grado de similitud productos          |
+|   8) Consulta grados de similitud  de un producto   |
+|   9) Consulta productos                             |
+|   10) Existe producto                               |
+|   11) Signup                                        |
+|   12) Login                                         |
+|   13) Logout                                        |
+|   14) Vaciar Estanteria                             |
+|   15) Salir                                         |
+|_____________________________________________________|
+
+Saliendo del sistema
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.8/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 673ms
+2 actionable tasks: 1 executed, 1 up-to-date

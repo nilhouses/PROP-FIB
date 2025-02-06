@@ -1,0 +1,45 @@
+Objeto de la prueba:
+
+    El driver es el objeto principal de esta prueba. En esta prueba queremos verificar que
+    el sistema permita ejecutar los casos de uso relacionados con la gestion de productos y 
+    sus similitudes. 
+    Los casos de uso especificos probados incluyen:
+
+        - signup y login del usuario (obligatorio para usar las funcionalidades)
+        - añadir 3 productos y sus similitudes
+        - modificar una similitud en concreto
+        - consultar que se haya guardado correctamente el cambio
+        - ver el contenido de la estantería
+        - vaciar la estanteria
+        - consultar productos fuera de la estanteria devuelve el error de producto no presente en la estantería
+        - ver el contendio otra vez después de vaciar la estanteria
+        - salir
+
+Archivos de datos necesarios:
+
+    Los archivos de datos, en este caso, son los siguientes:
+
+    test2.in (entrada)
+    test2.out (salida)
+
+Valores estudiados:
+
+    Hemos comprobado el proceso de añadir productos, modificar similitudes y la consulta del contenido de la 
+    estanteria, tanto antes como después de vaciarla.
+
+    Se puede decir que hemos aplicado técnicas de caja negra, ya que para este test no es necesario conocer
+    los detalles internos del sistema (como se gestionan los productos o las similitudes), y la prueba se 
+    basa en observar la salida esperada en función de las acciones realizadas sobre los productos.
+
+Efectos estudiados:
+
+    - Comprobacion de que el sistema permita gestionar correctamente los productos y sus similitudes. 
+    - Validacion de la correcta salida de datos (por ejemplo, mensajes de error cuando se consulta una estanteria vacia).
+    - Verificacion del correcto vaciado de la estanteria.
+
+Operativa:
+
+    Para ejecutar el sistema, solo es necesario ejecutar el archivo Main con el siguiente comando:
+
+        $ ./gradlew run < ../EXE/JuegosDePruebas/test2.in > ../EXE/JuegosDePruebas/test2.out
+

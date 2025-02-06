@@ -1,0 +1,13 @@
+Este directorio contiene los juegos de pruebas del driver main con sus descripciones.
+
+Para cada test con identificador i tenemos:
+
+    - El fichero de entrada (testi.in)
+    - El fichero esperado de salida(testi.out)
+    - El fichero que resume y describe las pruebas realizadas en ese test (testi.txt)
+
+Para ejecutar cualquier test usamos gradle desde el directorio FONTS:
+    
+    $ ./gradlew run < ../EXE/JuegosDePruebas/testi.in >  ../EXE/JuegosDePruebas/salida.out
+
+salida tendrá que tener el mismo contenido que testi.out

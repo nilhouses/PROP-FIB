@@ -1,0 +1,26 @@
+Este directorio contiene el subdirectorio usado para los juegos de pruebas del driver main "JuegosDePruebas" 
+
+Ejecutar en Windows 
+
+El ejecutable se encuentra comprimido en este mismo directorio con nombre:
+
+    gradlepoc-1.0-SNAPSHOT.zip
+
+Si se quiere recompilar el proyecto se tiene que coger el fichero comprimido en 
+../FONTS/build/distributions, que se genera al ejecutar el siguiente comando:
+
+    $ ./gradlew clean build
+
+Alternativamente, desde el directorio ../FONTS se puede:
+
+OPCION 1, ejecutar  
+    
+    $ ./gradlew run
+
+OPCION 2, ejecutar los siguientes comandos:
+
+    $ unzip /build/distributions/gradlepoc-1.0-SNAPSHOT.zip -d build/distributions/
+    $ cd /build/distributions/gradlepoc-1.0-SNAPSHOT/
+    $ bin/gradlepoc.bat
+
+

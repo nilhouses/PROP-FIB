@@ -1,0 +1,50 @@
+Este directorio contiene todos los ficheros usados para generar el proyecto.
+Hemos usado gradle para el compilado y ejecucion del proyecto y tests, por 
+lo que en este directorio tenemos ficheros y directorios propios de esta 
+herramienta, como por ejemplo:
+
+Ficheros:
+
+    -  build.gradle
+    -  gradlew.bat
+    -  settings.gradle
+    -  .gitignore
+
+Subdirectorios:
+
+    Ocultos con gitignore:
+
+        -  .gradle
+        -  build
+
+    Visibles para git:
+
+        -  .vscode
+        -  gradle
+        -  GradlePOC-1.0-SNAPSHOT
+        - src
+
+src contiene nuestros ficheros fuente ademas de nuestros tests unitarios.
+
+Desde el este mismo directorio (FONTS) podemos:
+
+Ejecutar el proyecto mediante el siguiente comando de gradle:
+
+    $ ./gradlew run 
+
+Ejecutar los tests unitarios: 
+
+    $ ./gradlew test
+
+Crear el .jar en en directorio  FONTS/build/libs con el codigo del proyecto, sin dependencias:
+
+    $ ./gradlew jar
+
+Crear ficheros comprimidos .tar y .zip en FONTS/build/distributions que contendran toda la estructura de directorios del proyecto:
+    
+    $ ./gradlew assembleDist: 
+
+Eliminar los ficheros generados (limipiarlo todo):
+
+    $ ./gradlew clean
+

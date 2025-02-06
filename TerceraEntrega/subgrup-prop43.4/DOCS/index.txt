@@ -1,0 +1,4 @@
+Este directorio contiene la documentacion de nuestro proyecto, compuesta por:
+
+    -  Documentacion de esta Tercera Entrega "Documentacion.pdf" 
+       (contiene el manual de usuario, el reparto de clases y los juegos de pruebas)

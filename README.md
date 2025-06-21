@@ -19,9 +19,9 @@ Our implementation is written in Java, following a three-layer architecture and 
 The project is organized into different directories, each corresponding to a stage in the project development. Each directory contains its own documentation.
 
 ## Authors
-- [Nil Casas Duatis](nil.casas.duatis@estudiantat.upc.edu)
-- [Andreu Corden Moragrega](andreu.corden@estudiantat.upc.edu)
-- [David Vergel Payán](david.vergel@estudiantat.upc.edu)
+- [Nil Casas Duatis](mailto:nil.casas.duatis@estudiantat.upc.edu)
+- [Andreu Corden Moragrega](mailto:andreu.corden@estudiantat.upc.edu)
+- [David Vergel Payán](mailto:david.vergel@estudiantat.upc.edu)
 
 ## License
 ### GNU GENERAL PUBLIC LICENSE  

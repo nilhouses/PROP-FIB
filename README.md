@@ -4,9 +4,7 @@ This repository contains the project for the Programming-Oriented Project ([PROP
 
 ## Project Overview
 
-The goal of this project is to optimize the placement of products on a single circular shelf in a supermarket to maximize customer purchases. Customers are more likely to buy a product if it is placed near a related product (e.g., beer placed next to chips). Each pair of products has a known similarity score in the range [0,1] that represents how related they are.
-
-The system manages products and their similarity scores and computes an optimal product arrangement using at least two algorithms: a basic algorithm (e.g., brute force or greedy) and an approximation algorithm.
+The goal of this project is to optimize the placement of products on a single circular shelf in a supermarket to maximize customer purchases. Customers are more likely to buy a product if it is placed near a related product (e.g., beer placed next to chips). Each pair of products has a known similarity score in the range [0,1] that represents how related they are. The system manages products and their similarity scores and computes an optimal product arrangement using at least two algorithms: a basic algorithm (e.g., brute force or greedy) and an approximation algorithm.
 
 ## Implementation 
 
